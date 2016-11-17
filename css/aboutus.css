@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+html{
+    width: 100%;
+}
+
+body {
+    font-family:'helvetica', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+    width: 100%;
+    width: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* スマホ用 */
+
+#wrapper{
+    width: 100%;
+}
+
+/* スマホ用 head */
+#head{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* スマホ用 head / logo */
+.logo{
+    width: 30%;
+    float: left;
+    padding: 60px 0px 60px 50px;
+}
+
+.head_logo{
+    width: 150px;
+}
+
+/* スマホ用 head / menu */
+.menu{
+    overflow: hidden;
+    position: fixed;
+    float: right;
+    margin-left: 800px;
+    padding: 47px 50px 0px 0px;
+}
+
+.menu_inner{
+    height: 110px;
+}
+
+.menu_logo{
+    width: 90px;
+    margin: 15px 10px 0px 15px;
+}
+
+/* スマホ用 head / sns */
+.sns{
+    width: 40%; 
+    float: right;
+    margin-top: 42px;
+    margin-right: 180px;
+}
+
+.sns_inner{
+    overflow: hidden;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sns_inner_box{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.sns_icon{
+    width: 90px;
+}
+
+
+/* 記事ページ */
+
+/* スマホ用記事ページ a_main */
+.a_main{
+    width: 100%;
+}
+
+.a_main_sport{
+    width: 100%;
+    border-top: 1px solid #ececec;
+    padding-top: 20px;
+    border-bottom: 1px solid #ececec;
+    background: #ececec;
+}
+
+.a_main_sport_inner{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a_sport_name{
+    background: #E83956;
+    width: 200px;
+}
+
+.a_sport_name_sentence{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+.a_top_img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.a_main_sentence{
+    width: 87%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.a_main_name{
+    font-size: 40px;
+    padding-bottom: 70px;
+}
+
+.a_main_content{
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.a_main_lead{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* メイン ライター紹介 */
+.a_main_writer{
+    width: 100%;
+    background: #00A0E9;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.a_main_writer_inner{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.a_main_writer_left{
+    float: left;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.a_main_writer_img{
+    width: 150px;
+    border-radius: 70px;
+}
+
+.a_writer_right{
+    float: left;
+}
+
+.a_main_writer_intro{
+    color: #fff;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-left: 260px;
+}
+
+.a_main_writer_date{
+    font-size: 10px;
+    color: #bfe7f9;
+    margin-bottom: 30px;
+    padding-left: 260px;
+}
+
+.a_main_writer_button{
+    border: 2px solid #fff;
+    border-radius: 60px/50px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.a_main_writer_man{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 45px;
+    float: left;
+}
+
+
+/* メインの文 */
+.a_main_writer_button_sentence{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 2px solid #ececec;
+    border-bottom: 2px solid #ececec;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.a_main_content_pic{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.a_main_share{
+    width: 100%;
+}
+
+
+/* snsシェア */
+.a_main_share{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a_main_share_sentence{
+    color: #E83956;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.a_main_share_icons{
+    width: 70%;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.a_main_icon_inner{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.a_main_icon{
+    width: 110px;
+}
